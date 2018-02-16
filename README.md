@@ -9,6 +9,8 @@ pipenv install 'click'
 pipenv install -d 'ipython'
 
 run
-pipenv run 'python shotty/shotty.py'
+pipenv run 'python shotty/shotty.py  command <--project=PROJECT>'
+*Command* list, start, stop
+*Project* optional --project=valkryie
 
 
